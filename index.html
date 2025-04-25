@@ -22,6 +22,12 @@
         height: 90%;
         aspect-ratio: 16/9;
     }
+    @media screen and (max-aspect-ratio: 16/9) {
+        video {
+            width: 90%;
+            height: auto !important;
+        }
+    }
 </style>
 <body>
     <video controls autoplay>
